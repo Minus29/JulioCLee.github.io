@@ -1,0 +1,84 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(48, 47, 47);
+    color: white;
+}
+
+.header {
+    background-size: cover;
+    padding: 1em;
+    font-size: 12em;
+    background-image: url(../img/banner2.jpg);
+    background-position: center;
+}
+
+.Titulo {
+    font-size: 150px;
+    margin: 0%;
+    color: rgb(255, 255, 255);
+    font-family: serif;
+}
+
+.subtitulo {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin: 0%;
+}
+
+h1 p {
+    margin: 0px;
+    /* font-weight: 400; */
+}
+
+.Menu1 {
+    width: 50%;
+    margin: auto;
+    font-size: 1.3em;
+}
+
+.Menu1 th {
+    border: 2px solid rgb(2221, 33, 33)
+}
+
+.products table {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #ccc;
+    text-align: left;
+    font-size: 1.2em;
+    padding: 0em;
+
+}
+
+.products td {
+    padding: 0px 30px;
+}
+
+.Compra {
+    padding: 0%;
+    width: 50%;
+    background-color: rgb(221, 33, 33);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: solid 1px rgb(73, 70, 70);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(221, 33, 33);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
+
+.normal {
+    font-size: 13px;
+    color: red;
+
+}

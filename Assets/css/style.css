@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+
+.fondo{
+    display: inline;
+}
+
+.desc-principal{
+    background-image: url(../img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.Conte{
+    margin: 10em 0em 7em 1em;
+}
+
+.titulo1{
+    font-size: 2rem;
+    color: rgb(111, 101, 248);
+    margin: 0%;
+    font-family: 'Patua One', cursive;
+   
+}
+
+.presentacion{
+    font-size: 3em;
+    margin: 0%;
+
+}
+
+.nombre{
+    color: rgb(255, 0, 0);
+}
+
+.desc-presentacion{
+    color: grey;
+    font-size: 1rem;
+}
+
+.diseño{
+    text-decoration: none;
+    color: white;
+}
+
+.desc-img{
+    padding: 2rem;
+}
+
+footer{
+    text-align: center;
+    padding: 0;
+    margin: 0%;
+    font-family: 'Nanum Myeongjo', serif;
+
+}
+
+.sec-text{
+    font-family: 'Lobster', cursive;
+}
+
+.seg-text{
+    font-family: 'Nanum Myeongjo', serif;
+}

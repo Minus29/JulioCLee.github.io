@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.flayer{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    width: auto;
+    margin: 0%;
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(68, 68, 68);
+}
+
+.parrafo1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.parrafo2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+footer{
+    background-color: rgb(68, 68, 68);
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    padding: 0.6rem 0;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+}
+
+.redondeo{
+    border-radius: 2%;
+}
+
+.logo{
+    width: 20rem;
+}

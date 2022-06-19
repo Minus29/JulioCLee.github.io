@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupones de descuentos</title>
+    <link rel="shortcut icon" href="./assets/img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><i class="bi bi-shop-window text-light"> Cuponapolis</i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ofertas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cupones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div>
+            <p class="flayer p-2">Por ser nuestro cliente, obtienes un 25% de dcto en todos nuestros cupones</p>
+        </div>
+
+        <div id="carouselExampleFade" class="carousel slide carousel-dark carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/banner.jpg" class="d-block w-100" alt="1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/banner1.jpg" class="d-block w-100" alt="2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/banner3.jpg"" class=" d-block w-100" alt="3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div class="row mt-2 m-4">
+            <div class="col-lg-4 col-md-4 col-xs-12 mt-4">
+                <div class="card shadow redondeo">
+                    <img src="assets/img/cupon-1.jpg" class="card-img-top redondeo" alt="cupon1">
+                    <div class="card-body parrafo1">
+                        <h5 class="card-title pb-5">Plumón Coral Fleece estampado en modelo y tamaño a elección</h5>
+                        <p class="card-text mb-0 pt-2">Plumones Manolino</p>
+                        <p class="card-text"><small class="text-muted"><i class="bi bi-geo-alt-fill">9191 Avenida
+                                    Vitacura, Chile</i></small></p>
+                        <div class="card-footer bg-transparent border-muted ">
+                            <p class="card-text m-0 text-danger d-flex"><del>Precio normal: $43.990</del></p>
+                            <p class="card-text m-0 fs-5 parrafo2"><strong>Precio oferta: $19.990</strong></p>
+                            <div class="d-flex justify-content-end">
+                                <select class="form-select text-muted form-select-sm mt-0 mb-2 text-end"
+                                    aria-label="Default select example" style="width: 3.5rem;">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                </select>
+                            </div>
+                            <div class="d-grid gap-2 d-flex justify-content-end">
+                                <button type="button" class="btn btn-danger btn-sm">Agregar al carro</button>
+                                <button type="button" class="btn btn-dark btn-sm">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12 mt-4">
+                <div class="card shadow redondeo">
+                    <img src="assets/img/cupon-2.jpg" class="card-img-top redondeo" alt="cupon2">
+                    <div class="card-body parrafo1">
+                        <h5 class="card-title pb-5">Entrada para compartir + platos de fondo + postres + bebestibles
+                        </h5>
+                        <p class="card-text mb-0 pt-2">V for Vegan</p>
+                        <p class="card-text"><small class="text-muted"><i class="bi bi-geo-alt-fill">777 Jesse Pinkman,
+                                    Chile </i></small></p>
+                        <div class="card-footer bg-transparent border-muted ">
+                            <p class="card-text m-0 text-danger"><del>Precio normal: $24.990</del></p>
+                            <p class="card-text m-0 fs-5 parrafo2"><strong>Precio oferta: $10.990</strong></p>
+                            <div class="d-flex justify-content-end">
+                                <select class="form-select text-muted form-select-sm mt-0 mb-2 text-end"
+                                    aria-label="Default select example" style="width: 3.5rem;">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                </select>
+                            </div>
+                            <div class="d-grid gap-2 d-flex justify-content-end">
+                                <button type="button" class="btn btn-danger btn-sm">Agregar al carro</button>
+                                <button type="button" class="btn btn-dark btn-sm">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12 mt-4">
+                <div class="card shadow redondeo">
+                    <img src="assets/img/cupon-3.jpg" class="card-img-top redondeo" alt="cupon3">
+                    <div class="card-body parrafo1">
+                        <h5 class="card-title pb-5">Evaluación integral + blanqueamiento dental led + limpieza +
+                            fluoración</h5>
+                        <p class="card-text mb-0 pt-2">Clínica Dental Quijada</p>
+                        <p class="card-text"><small class="text-muted"><i class="bi bi-geo-alt-fill">1342, Blanco
+                                    Encalada, Chile</i></small></p>
+                        <div class="card-footer bg-transparent border-muted ">
+                            <p class="card-text m-0 text-danger"><del>Precio normal: $69.990</del></p>
+                            <p class="card-text m-0 fs-5 parrafo2"><strong>Precio oferta: $35.990</strong></p>
+                            <div class="d-flex justify-content-end">
+                                <select class="form-select text-muted form-select-sm mt-0 mb-2 text-end"
+                                    aria-label="Default select example" style="width: 3.5rem;">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                </select>
+                            </div>
+                            <div class="d-grid gap-2 d-flex justify-content-end">
+                                <button type="button" class="btn btn-danger btn-sm">Agregar al carro</button>
+                                <button type="button" class="btn btn-dark btn-sm">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12 mt-4">
+                <div class="card shadow redondeo">
+                    <img src="assets/img/cupon-4.jpg" class="card-img-top redondeo" alt="cupon4">
+                    <div class="card-body parrafo1">
+                        <h5 class="card-title pb-5">Colación para 2 personas + postre (no incluye bebidas)</h5>
+                        <p class="card-text mb-0 pt-2">Suricata almacen</p>
+                        <p class="card-text"><small class="text-muted"><i class="bi bi-geo-alt-fill">1071 Miguel Claro,
+                                    Chile</i></small></p>
+                        <div class="card-footer bg-transparent border-muted ">
+                            <p class="card-text m-0 text-danger"><del>Precio normal: $64.990</del></p>
+                            <p class="card-text m-0 fs-5 parrafo2"><strong>Precio oferta: $33.990</strong></p>
+                            <div class="d-flex justify-content-end">
+                                <select class="form-select text-muted form-select-sm mt-0 mb-2 text-end"
+                                    aria-label="Default select example" style="width: 3.5rem;">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                </select>
+                            </div>
+                            <div class="d-grid gap-2 d-flex justify-content-end">
+                                <button type="button" class="btn btn-danger btn-sm">Agregar al carro</button>
+                                <button type="button" class="btn btn-dark btn-sm">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12 mt-4">
+                <div class="card shadow redondeo">
+                    <img src="assets/img/cupon-5.jpg" class="card-img-top redondeo" alt="cupon5">
+                    <div class="card-body parrafo1">
+                        <h5 class="card-title pb-5">1, 2 o 4 tickets para Stukids. Elige sucursal</h5>
+                        <p class="card-text mb-0 pt-2">Stukids Centro de Eventos</p>
+                        <p class="card-text"><small class="text-muted"><i class="bi bi-geo-alt-fill">133 El tranque,
+                                    Chile</i></small></p>
+                        <div class="card-footer bg-transparent border-muted ">
+                            <p class="card-text m-0 text-danger"><del>Precio normal: $120.990</del></p>
+                            <p class="card-text m-0 fs-5 parrafo2"><strong>Precio oferta: $75.990</strong></p>
+                            <div class="d-flex justify-content-end">
+                                <select class="form-select text-muted form-select-sm mt-0 mb-2 text-end"
+                                    aria-label="Default select example" style="width: 3.5rem;">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                </select>
+                            </div>
+                            <div class="d-grid gap-2 d-flex justify-content-end">
+                                <button type="button" class="btn btn-danger btn-sm">Agregar al carro</button>
+                                <button type="button" class="btn btn-dark btn-sm">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12 mt-4">
+                <div class="card shadow redondeo">
+                    <img src="assets/img/cupon-6.jpg" class="card-img-top redondeo" alt="cupon6">
+                    <div class="card-body parrafo1">
+                        <h5 class="card-title pb-5">San Pedro de Atacama: 2 noches en alojamiento</h5>
+                        <p class="card-text mb-0 pt-2">D-Latam Travel</p>
+                        <p class="card-text"><small class="text-muted"><i class="bi bi-geo-alt-fill">Santiago centro,
+                                    Región
+                                    Metropolitana </i></small></p>
+                        <div class="card-footer bg-transparent border-muted ">
+                            <p class="card-text m-0 text-danger"><del>Precio normal: $439.990</del></p>
+                            <p class="card-text m-0 fs-5 parrafo2"><strong>Precio oferta: $249.990</strong></p>
+                            <div class="d-flex justify-content-end">
+                                <select class="form-select text-muted form-select-sm mt-0 mb-2 text-end"
+                                    aria-label="Default select example" style="width: 3.5rem;">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                </select>
+                            </div>
+                            <div class="d-grid gap-2 d-flex justify-content-end">
+                                <button type="button" class="btn btn-danger btn-sm">Agregar al carro</button>
+                                <button type="button" class="btn btn-dark btn-sm">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <section>
+        <div class="bg-dark p-3 text-light fs-2 mt-3" style="text-align: center; width: auto;">
+            <label for="formGroupExampleInput" class="form-label parrafo2">Recibe un cupon de descuento</label>
+
+            <div>
+                <div class="p-3 formulario">
+                    <input type="text" class="form-control" style="width: 25rem;" id="formGroupExampleInput"
+                        placeholder="Nombre">
+                </div>
+                <div class="p-3 formulario">
+                    <input type="text" class="form-control" style="width: 25rem;" id="formGroupExampleInput2"
+                        placeholder="Correo">
+                </div>
+            </div>
+            <div>
+                <button type="submit" class="btn btn-light btn-sm p-0 pe-4 ps-4 fs-3 parrafo1">Enviar</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <img class="logo" src="assets/img/logo.png" alt="cuponapolis">
+        <p class="parrafo1" style="font-size: 0.7rem; ">© 2018 Cuponapolis Latam. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
